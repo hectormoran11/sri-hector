@@ -14,6 +14,13 @@ Para el despliegue de la infraestructura en AWS Learner Lab (región `us-east-1`
 
 ### Apartado 1: Red e Instancia en AWS
 - **Qué he hecho:** He creado la VPC, subred, IGW, tabla de rutas, grupo de seguridad e instancia EC2 con zona horaria de Madrid.
+
+![MapadeREcursosVPC](evidencias/MapadeRecursosVPC.png)
+
+![ReglasDeEntradaGS](evidencias/ReglasDeEntradaGS.png)
+
+![SalidaTimedatactl](evidencias/SalidaTimedatactl.png)
+
 - **Cómo lo he comprobado:** He verificado que responda directamente a través de la IP pública desde el navegador.
 
 ![Acceso directo por IP](evidencias/AccesoIP.png)
