@@ -1,0 +1,14 @@
+server {
+    listen 80;
+    server_name blog.hector.test;
+
+    root /var/www/blog;
+    index index.html;
+
+access_log /var/log/nginx/blog_access.log;
+error_log /var/log/nginx/blog_error.log;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
