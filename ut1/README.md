@@ -19,6 +19,8 @@ Para el despliegue de la infraestructura en AWS Learner Lab (región `us-east-1`
 
 ![ReglasDeEntradaGS](evidencias/ReglasDeEntradaGS.png)
 
+![DetallesDeLaInstancia](evidencias/DetallesDeLaInstancia.png)
+
 ![SalidaTimedatactl](evidencias/SalidaTimedatactl.png)
 
 - **Cómo lo he comprobado:** He verificado que responda directamente a través de la IP pública desde el navegador.
